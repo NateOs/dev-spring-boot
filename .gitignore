@@ -1,0 +1,10 @@
+# Chad Darby's course companion repo (boilerplate reference material, not my work)
+/spring-boot-4-spring-7-hibernate-for-beginners-main/
+
+# IDE state, not project code
+.idea/
+*.iml
+.vscode/
+
+# Build output
+target/
