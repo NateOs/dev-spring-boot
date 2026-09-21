@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fca74999-6ae4-41bb-9861-4a1e6a30876b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../03-jpa-crud-app/01-cruddemo/cruddemo/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-jpa-crud-app/01-cruddemo/cruddemo/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-jpa-crud-app/01-cruddemo/cruddemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../03-jpa-crud-app/01-cruddemo/cruddemo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/LibraryAppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/dto/AuthorDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/dto/AuthorRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/dto/BookDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/dto/BookRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/dto/CheckoutRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/dto/LoanDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/dto/MemberDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/dto/MemberRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/entity/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/entity/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/entity/Loan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/entity/LoanStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/exception/ApiError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/exception/BusinessRuleException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/repository/AuthorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/repository/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/repository/LoanRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/repository/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/service/AuthorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/service/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/service/LoanService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/web/AuthorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/web/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/web/LoanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/java/com/luv2code/libraryapp/web/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/backend/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/.oxlintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/public/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/src/api/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/src/components/ErrorBanner.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/src/pages/AuthorsPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/src/pages/BooksPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/src/pages/LoansPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/src/pages/MembersPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-library-app-crud-saas/frontend/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NateOs&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NateOs/dev-spring-boot.git&quot;,
+    &quot;accountId&quot;: &quot;c376945d-9f19-48ea-a209-bb50561a7039&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JToeT4rSV1WTsrdnzWopPtMD5L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/programs/dev-spring-boot/04-spring-boot-rest-crud&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fca74999-6ae4-41bb-9861-4a1e6a30876b" name="Changes" comment="" />
+      <created>1789694514358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789694514358</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
