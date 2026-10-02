@@ -1,6 +1,5 @@
 package com.terracom.springboot.cruddemo.rest;
 
-import com.terracom.springboot.cruddemo.dao.EmployeeDAO;
 import com.terracom.springboot.cruddemo.entity.Employee;
 import com.terracom.springboot.cruddemo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +8,7 @@ import tools.jackson.databind.json.JsonMapper;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
@@ -33,12 +33,12 @@ public class EmployeeRestController {
     @GetMapping("/employees/{employeeId}")
     public Employee findById(@PathVariable int employeeId) {
 
-        Employee theEmployee = employeeService.findById(employeeId);
+        Optional<Employee> result = employeeService.findById(employeeId);
 
-        if (theEmployee == null){
+        if (result.isEmpty()){
             throw new RuntimeException("Employee not found - "+employeeId);
         }
-        return theEmployee;
+        return result.get();
     }
 
     // add new employee
@@ -61,9 +61,9 @@ public class EmployeeRestController {
     @PatchMapping("/employees/{employeeId}")
     public Employee patchEmployee(@PathVariable int employeeId, @RequestBody Map<String, Object> patchPayload){
 
-        Employee tempEmployee = employeeService.findById(employeeId);
+        Optional<Employee> tempEmployee = employeeService.findById(employeeId);
 
-        if (tempEmployee == null){
+        if (tempEmployee.isEmpty()){
             throw new RuntimeException("Employee not found - "+employeeId);
         }
 
@@ -73,7 +73,7 @@ public class EmployeeRestController {
             throw new RuntimeException("Employee id is not allowed in request body - " + employeeId);
         }
 
-        Employee patchedEmployee = jsonMapper.updateValue(tempEmployee, patchPayload);
+        Employee patchedEmployee = jsonMapper.updateValue(tempEmployee.get(), patchPayload);
 
         Employee dbEmployee = employeeService.save(patchedEmployee);
 
@@ -83,7 +83,7 @@ public class EmployeeRestController {
     // delete employee by id
     @DeleteMapping("/employees/{employeeId}")
     public String deleteEmployee(@PathVariable int employeeId) {
-        Employee theEmployee = employeeService.findById(employeeId);
+        Optional<Employee> theEmployee = employeeService.findById(employeeId);
 
         if (theEmployee == null){
             throw new RuntimeException("Employee not found - "+employeeId);
